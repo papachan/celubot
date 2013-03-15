@@ -1,0 +1,5 @@
+#!/bin/bash
+# ./genScript.sh 
+# /bin/bash < genScript
+clear
+pyside-uic ui/Phone.ui > src/celubot/gui/MainForm.py
