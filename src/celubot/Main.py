@@ -31,14 +31,9 @@ class MainWindow(QMainWindow):
         self.move(qr.topLeft())
 
 
-def returnFunction():
-    return 1
-
-def run():
-    pass
-
-
 if __name__ == '__main__':
+    import sys
+
     if platform.system() == "Linux":
         app = QApplication(sys.argv)
         window = MainWindow()
